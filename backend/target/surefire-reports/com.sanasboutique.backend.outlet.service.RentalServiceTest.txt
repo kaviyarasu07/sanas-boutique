@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.sanasboutique.backend.outlet.service.RentalServiceTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.625 s -- in com.sanasboutique.backend.outlet.service.RentalServiceTest

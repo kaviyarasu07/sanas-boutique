@@ -1,0 +1,9 @@
+com\sanasboutique\backend\outlet\service\ModuleAccessTest.class
+com\sanasboutique\backend\outlet\service\BillingModuleTest.class
+com\sanasboutique\backend\outlet\service\StitchServiceTest.class
+com\sanasboutique\backend\BackendApplicationTests.class
+com\sanasboutique\backend\outlet\service\ParlourServiceTest$ParlourAutoCancelJobRunner.class
+com\sanasboutique\backend\outlet\service\OutletItemByCodeTest.class
+com\sanasboutique\backend\outlet\service\ParlourServiceTest.class
+com\sanasboutique\backend\outlet\service\RentalServiceTest.class
+com\sanasboutique\backend\outlet\service\ParlourServiceTest$Config.class

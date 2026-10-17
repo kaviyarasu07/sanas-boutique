@@ -1,0 +1,21 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.print-bill { display: none; }
+@media print {
+  body * { visibility: hidden; }
+  .print-bill, .print-bill * { visibility: visible; }
+  .print-bill { display: block; position: absolute; left: 0; top: 0; width: 72mm; padding: 8mm; font-size: 12px; }
+}
+
+/* Barcode previews fill their box */
+.barcode-preview svg { width: 100%; height: 100%; display: block; }

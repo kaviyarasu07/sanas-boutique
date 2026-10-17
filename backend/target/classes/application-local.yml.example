@@ -1,0 +1,7 @@
+# Copy this file to application-local.yml (gitignored) for anything you
+# don't want in application.yml — real secrets, a different local port, etc.
+# Run with: --spring.profiles.active=local
+#
+# spring:
+#   datasource:
+#     password: something-only-on-my-machine

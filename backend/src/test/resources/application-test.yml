@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:sanas_boutique_test;MODE=PostgreSQL
+    username: sa
+    password: ""
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+  flyway:
+    enabled: false
+
+app:
+  jobs:
+    parlour-auto-cancel:
+      # The 6:00 AM job is tested directly; no timer during tests.
+      enabled: false

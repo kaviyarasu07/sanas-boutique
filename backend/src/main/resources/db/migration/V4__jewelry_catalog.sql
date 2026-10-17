@@ -1,0 +1,4 @@
+-- Retired. The separate jewelry catalog was folded into the unified
+-- service / service_category / service_item design in V3, before this
+-- migration was ever applied to a real database. Left in place (empty) so
+-- migration numbering stays untouched.

@@ -1,0 +1,2 @@
+CREATE TABLE outlet_customer (id BIGSERIAL PRIMARY KEY, outlet_id BIGINT NOT NULL REFERENCES outlet(id) ON DELETE CASCADE, mobile_number VARCHAR(10) NOT NULL, name VARCHAR(150) NOT NULL, created_at TIMESTAMPTZ NOT NULL DEFAULT now(), updated_at TIMESTAMPTZ NOT NULL DEFAULT now(), CONSTRAINT uq_outlet_customer_mobile UNIQUE (outlet_id, mobile_number), CONSTRAINT chk_customer_mobile_digits CHECK (mobile_number ~ '^[0-9]{10}$'));
+ALTER TABLE bill ADD COLUMN customer_id BIGINT REFERENCES outlet_customer(id);
